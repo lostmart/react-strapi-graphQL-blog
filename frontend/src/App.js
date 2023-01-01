@@ -17,7 +17,7 @@ function App() {
 				<Routes>
 					<Route exact path="/" element={<Homepage />} />
 
-					<Route path="/details/:id" element={<Singlepost />} />
+					<Route path="/post/:id" element={<Singlepost />} />
 
 					<Route path="/category/:id" element={<Category />} />
 
